@@ -5,9 +5,11 @@ import { IoMdClose } from "react-icons/io";
 import { Link } from 'react-router-dom';
 
 
+
 export default function Navbar() {
     const [isNavOpen, setIsNavOpen] = useState(false);
     const [isDropdownOpen, setIsDropdownOpen] = useState(false);
+   
     let timer: NodeJS.Timeout;
 
 
