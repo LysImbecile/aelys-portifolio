@@ -44,19 +44,22 @@ export default function Navbar() {
                                 {isDropdownOpen && (
                                     <div className="absolute p-2 left-0 mt-2 w-72 rounded-md shadow-lg bg-stone-950 border border-gray-600 text-black">
                                         <a href="#" className="block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-zinc-800">
-                                            <div className='text-sm font-medium leading-none text-white'>Curriculum</div>
+                                            <div className='text-sm font-medium leading-none text-white'>Curriculum - 📖</div>
                                             <p className='line-clamp-2 text-sm leading-snug text-muted-foreground text-white'>My personal CV with full info about my person.</p>
                                         </a>
                                         <a href="#" className="block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-zinc-800">
-                                            <div className='text-sm font-medium leading-none text-white'>Hobbies</div>
-                                            <p className='line-clamp-2 text-sm leading-snug text-muted-foreground text-white'>Info about what i usually do when i'm bored</p>
-                                        </a>             
+                                            <div className='text-sm font-medium leading-none text-white'>About this website - 🗯️</div>
+                                            <p className='line-clamp-2 text-sm leading-snug text-muted-foreground text-white'>General info about how this website was made.</p>
+                                        </a>            
+                                        <a href="#" className="block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-zinc-800">
+                                            <div className='text-sm font-medium leading-none text-white'>Work with me - 📩</div>
+                                            <p className='line-clamp-2 text-sm leading-snug text-muted-foreground text-white'>Lets code together! If you want a partner or a group to study, check this!</p>
+                                        </a>    
                                     </div>
                                 )}
                                 
                             </div>
                             <a href="#" className='flex items-center justify-center hover:bg-gray-600 h-9 w-max px-4 py-2 rounded transition-colors'>Projects</a>
-                            <a href="#" className='flex items-center justify-center hover:bg-gray-600 h-9 w-max px-4 py-2 rounded transition-colors'>Contact</a>
                         </div>
                         <button className="transition hover:scale-125 md:hidden text-2xl text-white">
                             <RxHamburgerMenu onClick={() => setIsNavOpen(!isNavOpen)} />
@@ -64,15 +67,15 @@ export default function Navbar() {
                         {isNavOpen && (
                             
                             <div className='absolute top-1/2 mt-20 left-1/2 transform -translate-x-1/2 -translate-y-1/2 flex flex-col margin-auto self-center align-middle p-2 w-[15rem] rounded-md shadow-lg bg-stone-950 border border-gray-600'>            
-                            <button className="md:hidden text-2xl self-end text-white transition hover:scale-110">
+                            <button className="md:hidden text-red-600 text-2xl self-end transition hover:scale-110">
                             <IoMdClose onClick={() => setIsNavOpen(!isNavOpen)} />
-                        </button>               
-                                  <a className='text-white p-2  hover:bg-gray-600 rounded' href='#'>
+                        </button> 
+                                  <Link to="/" className='text-white p-2  hover:bg-gray-600 rounded'>
+                                    <span>Home</span>
+                                  </Link>              
+                                  <Link to="/about" className='text-white p-2  hover:bg-gray-600 rounded'>
                                     <span>About</span>
-                                  </a>
-                                  <a className='text-white p-2 hover:bg-gray-600 rounded' href='#'>
-                                    <span>Contact</span>
-                                  </a>
+                                  </Link>
                                   <a className='text-white p-2 hover:bg-gray-600 rounded' href='#'>
                                     <span>Projects</span>
                                   </a>
