@@ -2,12 +2,14 @@ import { useState } from 'react';
 import { RxHamburgerMenu } from "react-icons/rx";
 import { RiArrowDropDownLine } from "react-icons/ri";
 import { IoMdClose } from "react-icons/io";
+import { Link } from 'react-router-dom';
 
 
 export default function Navbar() {
     const [isNavOpen, setIsNavOpen] = useState(false);
     const [isDropdownOpen, setIsDropdownOpen] = useState(false);
     let timer: NodeJS.Timeout;
+
 
     const handleMouseEnter = () => {
         clearTimeout(timer);
@@ -29,14 +31,15 @@ export default function Navbar() {
                         <span className="text-2xl text-white font-custom font-light">Aelys.me</span>
                         </a>
                         <div className="hidden md:flex items-center space-x-4 py-2 text-white">
-                        <a href="#" className='md:flex items-center justify-center hover:bg-gray-600 h-9 w-max px-4 py-2 rounded transition-colors'>Home</a>
+                        <Link to="/" className='md:flex items-center justify-center hover:bg-gray-600 h-9 w-max px-4 py-2 rounded transition-colors'>Home</Link>
 
                             <div className="relative" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
                                 <div className="flex items-center space-x-1">
-                                    <a href="#" className='flex font-ubuntu items-center justify-center hover:bg-gray-600 h-9 w-max pl-2 pr-2 py-2 rounded transition-colors'>
+                                    <Link to="/about" 
+                                    className='flex font-ubuntu items-center justify-center hover:bg-gray-600 h-9 w-max pl-2 pr-2 py-2 rounded transition-colors'>
                                         <span>About</span>
                                         <RiArrowDropDownLine className={`transform text-2xl transition-transform duration-200 ${isDropdownOpen ? 'rotate-180' : ''}`} />
-                                        </a>
+                                        </Link>
                                 </div>
                                 {isDropdownOpen && (
                                     <div className="absolute p-2 left-0 mt-2 w-72 rounded-md shadow-lg bg-stone-950 border border-gray-600 text-black">
