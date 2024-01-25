@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@font-face {
+    font-family: MPLUS;
+    src: url('../src/assets/fonts/MPLUS1Code-VariableFont_wght.ttf');
+}
+
+@font-face {
+    font-family: UBUNTU ;
+    src: url('../src/assets//fonts/Ubuntu-Regular.ttf');
+}
+
+@font-face {
+    font-family: KURALE;
+    src: url('../src/assets/fonts/Kurale-Regular.ttf');
+}
+body{
+    background-color: black;
+}
