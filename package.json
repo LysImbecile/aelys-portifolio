@@ -12,14 +12,12 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-icons": "^5.0.1",
-    "react-router-dom": "^6.21.3",
-    "three": "^0.160.1"
+    "react-router-dom": "^6.21.3"
   },
   "devDependencies": {
     "@types/node": "^20.11.6",
     "@types/react": "^18.0.15",
     "@types/react-dom": "^18.0.6",
-    "@types/three": "^0.160.0",
     "@typescript-eslint/eslint-plugin": "^5.33.0",
     "@typescript-eslint/parser": "^5.33.0",
     "@vitejs/plugin-react": "^3.0.0",

@@ -1,5 +1,8 @@
+import { useEffect, useRef } from 'react';
+
+
 export default function Home () {
- 
+    
     return (
             <div className={"relative ml-auto mr-auto max-w-[80ch] scroll-smooth p-2 bg-black"} style={{ minHeight: 'calc(100vh - 1000px)'}}>
                <main className="overflow-x-hidden px-7 py-10">
