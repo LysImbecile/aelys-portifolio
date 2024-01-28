@@ -49,10 +49,10 @@ export default function Navbar() {
                                             <div className='text-sm font-medium leading-none text-white'>Curriculum - 📖</div>
                                             <p className='line-clamp-2 text-sm leading-snug text-muted-foreground text-white'>My personal CV with full info about my person.</p>
                                         </a>
-                                        <a href="#" className="block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-zinc-800">
-                                            <div className='text-sm font-medium leading-none text-white'>About this website - 🗯️</div>
-                                            <p className='line-clamp-2 text-sm leading-snug text-muted-foreground text-white'>General info about how this website was made.</p>
-                                        </a>            
+                                        <Link to='/about'  className="block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-zinc-800">
+                                            <div className='text-sm font-medium leading-none text-white'>Introducing myself - 🗯️</div>
+                                            <p className='line-clamp-2 text-sm leading-snug text-muted-foreground text-white'>My small and direct introduction.</p>
+                                        </Link>            
                                         <a href="#" className="block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-zinc-800">
                                             <div className='text-sm font-medium leading-none text-white'>Work with me - 📩</div>
                                             <p className='line-clamp-2 text-sm leading-snug text-muted-foreground text-white'>Lets code together! If you want a partner or a group to study, check this!</p>
@@ -78,6 +78,9 @@ export default function Navbar() {
                                   <Link to="/about" className='text-white p-2  hover:bg-gray-600 rounded'>
                                     <span>About</span>
                                   </Link>
+                                  <a href='https://cv.aelys.me/' className='text-white p-2  hover:bg-gray-600 rounded'>
+                                    <span>Curriculum</span>
+                                  </a>
                                   <a className='text-white p-2 hover:bg-gray-600 rounded' href='#'>
                                     <span>Projects</span>
                                   </a>
