@@ -3,30 +3,44 @@ export default function Projects() {
         <div className="bg-black text-white flex flex-col">
             <h1 className="text-4xl pt-14 pl-20">My recent works</h1>
             <p className="md:pl-20 p-10 pt-4 max-w-xl text-wrap">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque quae modi quas, rerum nulla a? At quibusdam eligendi nam sapiente, quod, atque quo est doloremque earum repudiandae quia possimus libero.</p>
-            <div className=" grid justify-between pt-20 grid-rows-4 gap-11 p-20 md:grid-cols-4 grid-cols-2">
+            <div className=" grid justify-between pt-14 grid-rows-4 gap-11 p-20 md:grid-cols-3 grid-cols-1">
                   
-            <section className="bg-gray-900 p-4 h-60 border border-opacity-15 border-gray-200 hover:transition hover:-translate-y-5 hover:scale-110 rounded-lg">
-                
-                </section>
-            <section className="bg-gray-900 p-4 h-60 border border-opacity-15 border-gray-200 hover:transition hover:-translate-y-5 hover:scale-110 rounded-lg">
-                
-                </section>
-            <section className="bg-gray-900 p-4 h-60 border border-opacity-15 border-gray-200 hover:transition hover:-translate-y-5 hover:scale-110 rounded-lg">
-                
+            <section className="bg-gray-900 h-fit w-fit border border-opacity-15 border-gray-200 hover:transition hover:-translate-y-5 hover:scale-105 rounded-lg flex flex-col items-center p-4">
+                <img className="h-44 w-full object-cover rounded-t-lg" src="https://private-user-images.githubusercontent.com/136639736/301017901-d1ef9dd8-2b9f-43cb-9f56-0606e73455c0.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MDY4OTY4NzEsIm5iZiI6MTcwNjg5NjU3MSwicGF0aCI6Ii8xMzY2Mzk3MzYvMzAxMDE3OTAxLWQxZWY5ZGQ4LTJiOWYtNDNjYi05ZjU2LTA2MDZlNzM0NTVjMC5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwMjAyJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDIwMlQxNzU2MTFaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT05MmZlNDFhNzU0ZTRlY2E0NDc4ZWE2YTc3NzVlNmY5ZTUxMWEyMjAzYWIzOGQ4ZGIzMjRkMGJhMWYzYzIzMmMxJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.5PEXW4lwEtR3-NW-9eHha6Yra5xZaK8ZnZKj4GZVrcQ" alt="Project image" />
+                <h1 className="text-2xl text-center font-ubuntu pt-3">To-Do React app</h1>
+                <p className="text-start font-light pt-2 px-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni doloremque illum, minima deleniti assumenda voluptate voluptatem perferendis necessitatibus adipisci dolorem vero, molestiae accusantium, laudantium ipsa. Totam distinctio est libero esse?</p>
+                <a href="https://example.com/project-link" className="mt-4 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Learn More</a>
             </section>
-            <section className="bg-gray-900 p-4 h-60 border border-opacity-15 border-gray-200 hover:transition hover:-translate-y-5 hover:scale-110 rounded-lg">
-                
+            <section className="bg-gray-900 h-fit w-fit border border-opacity-15 border-gray-200 hover:transition hover:-translate-y-5 hover:scale-105 rounded-lg flex flex-col items-center p-4">
+                <img className="h-44 w-full object-cover rounded-t-lg" src="https://logodownload.org/wp-content/uploads/2014/10/senac-logo-0.png" alt="Project image" />
+                <h1 className="text-2xl text-center font-ubuntu pt-3">SENAC Discord bot</h1>
+                <p className="text-start font-light pt-2 px-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni doloremque illum, minima deleniti assumenda voluptate voluptatem perferendis necessitatibus adipisci dolorem vero, molestiae accusantium, laudantium ipsa. Totam distinctio est libero esse?</p>
+                <a href="https://example.com/project-link" className="mt-4 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Learn More</a>
             </section>
-             <section className="bg-gray-900 p-4 h-60 border border-opacity-15 border-gray-200 col-span-2 hover:transition hover:-translate-y-5 hover:scale-110 rounded-lg">
-                
+            <section className="bg-gray-900 h-fit w-fit border border-opacity-15 border-gray-200 hover:transition hover:-translate-y-5 hover:scale-105 rounded-lg flex flex-col items-center p-4">
+                <img className="h-44 w-full object-cover rounded-t-lg" src="https://private-user-images.githubusercontent.com/136639736/297572084-9ca6f606-bf3f-4a6a-a8d1-f16ed382aca4.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MDY4OTgyNDEsIm5iZiI6MTcwNjg5Nzk0MSwicGF0aCI6Ii8xMzY2Mzk3MzYvMjk3NTcyMDg0LTljYTZmNjA2LWJmM2YtNGE2YS1hOGQxLWYxNmVkMzgyYWNhNC5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwMjAyJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDIwMlQxODE5MDFaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1hOGZmYzE5MTczODUyY2M1NmEzZGZlMWI2YzcwMTM4NTUzYzA0M2VlM2I4YTYyNWNjZGJhOGQ1NmEyMjlmMDBlJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.y14EvHreghwlTpk13izJ8q5zwvW-3mx5kyco1xef6wE" alt="Project image" />
+                <h1 className="text-2xl text-center font-ubuntu pt-3">Auto certification system</h1>
+                <p className="text-start font-light pt-2 px-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni doloremque illum, minima deleniti assumenda voluptate voluptatem perferendis necessitatibus adipisci dolorem vero, molestiae accusantium, laudantium ipsa. Totam distinctio est libero esse?</p>
+                <a href="https://example.com/project-link" className="mt-4 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Learn More</a>
             </section>
-            <section className="bg-gray-900 p-4 h-60 border border-opacity-15 border-gray-200 hover:transition hover:-translate-y-5 hover:scale-110 rounded-lg">
-                
-                </section>
-            
-                <section className="bg-gray-900 p-4 h-60 border border-opacity-15 border-gray-200 hover:transition hover:-translate-y-5 hover:scale-110 rounded-lg">
-                
-                </section>
+            <section className="bg-gray-900 h-fit w-fit border border-opacity-15 border-gray-200 hover:transition hover:-translate-y-5 hover:scale-105 rounded-lg flex flex-col items-center p-4">
+                <img className="h-44 w-full object-cover rounded-t-lg" src="https://private-user-images.githubusercontent.com/136639736/298443074-750b0561-b02f-4f14-9f97-7f12b7503030.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MDY4OTgzNTEsIm5iZiI6MTcwNjg5ODA1MSwicGF0aCI6Ii8xMzY2Mzk3MzYvMjk4NDQzMDc0LTc1MGIwNTYxLWIwMmYtNGYxNC05Zjk3LTdmMTJiNzUwMzAzMC5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwMjAyJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDIwMlQxODIwNTFaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT01ODRkOTc4ZDA4ZGQzZWM5YjVlZWRiNTAwZDZiY2QyNTQ1ZDE1Y2I5OThjMDFjZWY2OWU2NzY3OTQ0YTY1MGIzJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.9-wxbuqUpxGtSTJM1_xMvsghvvtANORXzBE14fniZ10" alt="Project image" />
+                <h1 className="text-2xl text-center font-ubuntu pt-3">YouTube downloader</h1>
+                <p className="text-start font-light pt-2 px-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni doloremque illum, minima deleniti assumenda voluptate voluptatem perferendis necessitatibus adipisci dolorem vero, molestiae accusantium, laudantium ipsa. Totam distinctio est libero esse?</p>
+                <a href="https://example.com/project-link" className="mt-4 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Learn More</a>
+            </section>
+            <section className="bg-gray-900 h-fit w-fit border border-opacity-15 border-gray-200 hover:transition hover:-translate-y-5 hover:scale-105 rounded-lg flex flex-col items-center p-4">
+                <img className="h-44 w-full object-cover rounded-t-lg" src="https://private-user-images.githubusercontent.com/136639736/298415684-499bb00f-f998-4f4a-88b5-33a26c4e52b3.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MDY4OTg0MjAsIm5iZiI6MTcwNjg5ODEyMCwicGF0aCI6Ii8xMzY2Mzk3MzYvMjk4NDE1Njg0LTQ5OWJiMDBmLWY5OTgtNGY0YS04OGI1LTMzYTI2YzRlNTJiMy5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwMjAyJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDIwMlQxODIyMDBaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT0yN2Y2NzAzZWQxNWVkMGM3NzVlMWZjNzM3N2Q2MjJkNmE1N2Y4ZjRlMjFmMDVmYzdkYWM4NGQ0YzdjOGVhMTEyJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.RwBgIP8qzznSTPRHhq7n48h19jz-TRxKSPmIho8B0h0" alt="Project image" />
+                <h1 className="text-2xl text-center font-ubuntu pt-3">Login Form</h1>
+                <p className="text-start font-light pt-2 px-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni doloremque illum, minima deleniti assumenda voluptate voluptatem perferendis necessitatibus adipisci dolorem vero, molestiae accusantium, laudantium ipsa. Totam distinctio est libero esse?</p>
+                <a href="https://example.com/project-link" className="mt-4 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Learn More</a>
+            </section>
+            <section className="bg-gray-900 h-fit w-fit border border-opacity-15 border-gray-200 hover:transition hover:-translate-y-5 hover:scale-105 rounded-lg flex flex-col items-center p-4">
+                <img className="h-44 w-full object-cover rounded-t-lg" src="https://private-user-images.githubusercontent.com/136639736/301017901-d1ef9dd8-2b9f-43cb-9f56-0606e73455c0.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MDY4OTY4NzEsIm5iZiI6MTcwNjg5NjU3MSwicGF0aCI6Ii8xMzY2Mzk3MzYvMzAxMDE3OTAxLWQxZWY5ZGQ4LTJiOWYtNDNjYi05ZjU2LTA2MDZlNzM0NTVjMC5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwMjAyJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDIwMlQxNzU2MTFaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT05MmZlNDFhNzU0ZTRlY2E0NDc4ZWE2YTc3NzVlNmY5ZTUxMWEyMjAzYWIzOGQ4ZGIzMjRkMGJhMWYzYzIzMmMxJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.5PEXW4lwEtR3-NW-9eHha6Yra5xZaK8ZnZKj4GZVrcQ" alt="Project image" />
+                <h1 className="text-2xl text-center font-ubuntu pt-3">To-Do React app</h1>
+                <p className="text-start font-light pt-2 px-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni doloremque illum, minima deleniti assumenda voluptate voluptatem perferendis necessitatibus adipisci dolorem vero, molestiae accusantium, laudantium ipsa. Totam distinctio est libero esse?</p>
+                <a href="https://example.com/project-link" className="mt-4 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Learn More</a>
+            </section>
                 </div>
 
         </div>
