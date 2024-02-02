@@ -30,7 +30,7 @@ export default function Navbar() {
                 <div className="max-w-5xl mx-auto px-4">
                     <div className="flex items-center justify-between border-b border-opacity-60 border-gray-600 h-16 px-4">
                         <a href='#'>
-                        <span className="text-2xl text-white font-custom font-light">Aelys.me</span>
+                        <span className="text-2xl text-white font-ubuntu font-light">Aelys.me</span>
                         </a>
                         <div className="hidden md:flex items-center space-x-4 py-2 text-white">
                         <Link to="/" className='md:flex items-center justify-center hover:bg-gray-600 h-9 w-max px-4 py-2 rounded transition-colors'>Home</Link>
@@ -61,7 +61,7 @@ export default function Navbar() {
                                 )}
                                 
                             </div>
-                            <a href="#" className='flex items-center justify-center hover:bg-gray-600 h-9 w-max px-4 py-2 rounded transition-colors'>Projects</a>
+                            <Link to={'/projects'} className='flex items-center justify-center hover:bg-gray-600 h-9 w-max px-4 py-2 rounded transition-colors'>Projects</Link>
                         </div>
                         <button className="transition hover:scale-125 md:hidden text-2xl text-white">
                             <RxHamburgerMenu onClick={() => setIsNavOpen(!isNavOpen)} />
@@ -81,9 +81,9 @@ export default function Navbar() {
                                   <a href='https://cv.aelys.me/' className='text-white p-2  hover:bg-gray-600 rounded'>
                                     <span>Curriculum</span>
                                   </a>
-                                  <a className='text-white p-2 hover:bg-gray-600 rounded' href='#'>
+                                  <Link to='/projects' className='text-white p-2 hover:bg-gray-600 rounded' href='#'>
                                     <span>Projects</span>
-                                  </a>
+                                  </Link>
                             </div>
 
                         )}
