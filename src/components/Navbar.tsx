@@ -76,12 +76,12 @@ export default function Navbar() {
                                     <span>Home</span>
                                   </Link>              
                                   <Link to="/about" className='text-white p-2  hover:bg-gray-600 rounded'>
-                                    <span>About</span>
+                                   <span>About</span>
                                   </Link>
                                   <a href='https://cv.aelys.me/' className='text-white p-2  hover:bg-gray-600 rounded'>
                                     <span>Curriculum</span>
                                   </a>
-                                  <Link to='/projects' className='text-white p-2 hover:bg-gray-600 rounded' href='#'>
+                                  <Link to='/projects' className='text-white p-2 hover:bg-gray-600 rounded'>
                                     <span>Projects</span>
                                   </Link>
                             </div>
