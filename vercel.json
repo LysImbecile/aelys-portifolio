@@ -1,0 +1,17 @@
+{
+    "routes" : [
+        {
+            "src" : "/about",
+            "dest" : "/"
+        },
+        {
+            "src" : "/",
+            "dest" : "/"
+        },
+        {
+            "src" : "projects",
+            "dest" : "/"
+        }
+        
+    ]
+}
