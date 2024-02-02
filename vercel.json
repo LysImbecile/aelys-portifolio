@@ -1,15 +1,15 @@
 {
     "routes" : [
         {
-            "src" : "/about",
-            "dest" : "/"
-        },
-        {
             "src" : "/",
             "dest" : "/"
         },
         {
-            "src" : "projects",
+            "src" : "/about",
+            "dest" : "/"
+        },
+        {
+            "src" : "/projects",
             "dest" : "/"
         }
         
