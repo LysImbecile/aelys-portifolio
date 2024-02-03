@@ -18,8 +18,8 @@ export default function Home () {
                     Best way to reach out to me is via Discord @A3lys.
                         </p>
                     <p className="flex text-red-600 underline pt-2 font-bold flex-wrap gap-3">
-                        <a target="_blank" href="https://github.com/henriquejustee">GitHub</a>
-                        <a target="_blank" href="https://www.youtube.com/channel/UCC82bHCIS667v3loXsPd5MA">Youtube</a>
+                        <a target="_blank" className="transition hover:bg-red-950 rounded p-1" href="https://github.com/henriquejustee">GitHub</a>
+                        <a target="_blank" className="transition hover:bg-red-950 rounded p-1" href="https://www.youtube.com/channel/UCC82bHCIS667v3loXsPd5MA">Youtube</a>
                     </p>
                  
                 </div>

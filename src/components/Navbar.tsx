@@ -68,7 +68,7 @@ export default function Navbar() {
                         </button>
                         {isNavOpen && (
                             
-                            <div className='absolute top-1/2 mt-20 left-1/2 transform -translate-x-1/2 -translate-y-1/2 flex flex-col margin-auto self-center align-middle p-2 w-[15rem] rounded-md shadow-lg bg-stone-950 border border-gray-600'>            
+                            <div className=' absolute top-1/2 mt-20 left-1/2 transform -translate-x-1/2 -translate-y-1/2 flex flex-col margin-auto self-center align-middle p-2 w-[15rem] rounded-md shadow-lg bg-stone-950 border border-gray-600'>            
                             <button className="md:hidden text-red-600 text-2xl self-end transition hover:scale-110">
                             <IoMdClose onClick={() => setIsNavOpen(!isNavOpen)} />
                         </button> 
