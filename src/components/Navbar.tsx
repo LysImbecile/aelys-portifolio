@@ -30,7 +30,7 @@ export default function Navbar() {
                 <div className="max-w-5xl mx-auto px-4">
                     <div className="flex items-center justify-between border-b border-opacity-60 border-gray-600 h-16 px-4">
                         <a href='#'>
-                        <span className="text-2xl text-white font-ubuntu font-light">Aelys.me</span>
+                        <Link to='/' className="text-2xl text-white font-ubuntu ">Aelys.me</Link>
                         </a>
                         <div className="hidden md:flex items-center space-x-4 py-2 text-white">
                         <Link to="/" className='md:flex items-center justify-center hover:bg-gray-600 h-9 w-max px-4 py-2 rounded transition-colors'>Home</Link>

@@ -1,8 +1,8 @@
 export default function Projects() {
     return (
         <div className="bg-black text-white flex flex-col px-5 md:px-14 py-14">
-        <h1 className="text-4xl">My recent works</h1>
-        <p className="pt-4 max-w-xl text-wrap">Here are some repositories i'm working on or have worked on. You can check them out on my GitHub profile.</p> 
+        <h1 className="text-4xl pt-5 ml-10">My recent works</h1>
+        <p className="pt-4 max-w-xl text-wrap ml-10">Here are some repositories i'm working on or have worked on. You can check them out on my GitHub profile.</p> 
         <div className="grid gap-11 pt-14 md:grid-cols-3 grid-cols-1 p-20">
                   
              <section className="bg-gray-900 flex flex-col border border-opacity-15 border-gray-200 hover:transition hover:-translate-y-5 hover:scale-105 rounded-lg items-stretch p-4">
