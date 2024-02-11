@@ -13,10 +13,6 @@
     src: url('../src/assets//fonts/Ubuntu-Regular.ttf');
 }
 
-@font-face {
-    font-family: KURALE;
-    src: url('../src/assets/fonts/Kurale-Regular.ttf');
-}
 body{
     background-color: black;
 }
