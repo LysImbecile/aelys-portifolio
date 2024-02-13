@@ -6,10 +6,10 @@ export default function Projects() {
         <div className="grid gap-11 pt-14 md:grid-cols-3 grid-cols-1 p-20">
                   
         <section className="bg-gray-900 flex flex-col border border-opacity-15 border-gray-200 hover:transition hover:-translate-y-5 hover:scale-105 rounded-lg items-stretch p-4">
-            <img className="h-32 object-cover rounded-t-lg" src="https://i.ibb.co/p4NrWkQ/To-Doreact.png" alt="Project image" />
-            <h1 className="text-2xl text-center font-ubuntu pt-3">To-Do React app</h1>
+            <img className="h-32 object-cover rounded-t-lg" src="https://i.ibb.co/SdjZrxy/image.png" alt="Project image" />
+            <h1 className="text-2xl text-center font-ubuntu pt-3">Github profile finder</h1>
             <p className="text-start font-light mb-2 pt-2 px-4">
-                A React frontend application with the objective to add, edit and delete daily tasks, i will integrate it with a nodeJS backend soon and reformulate the website UX to grant a better and well worked application.
+            This React frontend application integrates with the GitHub API, allowing you to search for users and view their basic profile information. A future route will display a grid of each user's public repositories.
             </p>
             <div className="tag-container flex justify-around border-t mt-1 items-center py-3 px-6 gap-2 bg-gray-800 rounded-lg shadow-lg">
                         <span className="tag text-yellow-500 text-sm font-bold py-1 px-3 bg-white rounded-full">ReactJS</span>
