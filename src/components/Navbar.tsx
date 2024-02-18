@@ -9,7 +9,7 @@ import { Link } from 'react-router-dom';
 export default function Navbar() {
     const [isNavOpen, setIsNavOpen] = useState(false);
     const [isDropdownOpen, setIsDropdownOpen] = useState(false);
-   
+
     let timer: NodeJS.Timeout;
 
 
@@ -26,22 +26,22 @@ export default function Navbar() {
 
     return (
         <>
-            <nav className="sticky top-0 z-10 pt-4 bg-black bg-cover">
+            <nav className="sticky top-0 z-10 pt-4 bg-zinc-900 bg-cover">
                 <div className="max-w-5xl mx-auto px-4">
                     <div className="flex items-center justify-between border-b border-opacity-60 border-gray-600 h-16 px-4">
                         <a href='#'>
-                        <Link to='/' className="text-2xl text-white font-ubuntu ">Aelys.me</Link>
+                            <Link to='/' className="text-2xl text-white font-ubuntu ">Aelys.me</Link>
                         </a>
                         <div className="hidden md:flex items-center space-x-4 py-2 text-white">
-                        <Link to="/" className='md:flex items-center justify-center hover:bg-gray-600 h-9 w-max px-4 py-2 rounded transition-colors'>Home</Link>
+                            <Link to="/" className='md:flex items-center justify-center hover:bg-gray-600 h-9 w-max px-4 py-2 rounded transition-colors'>Home</Link>
 
                             <div className="relative" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
                                 <div className="flex items-center space-x-1">
-                                    <Link to="/about" 
-                                    className='flex font-ubuntu items-center justify-center hover:bg-gray-600 h-9 w-max pl-2 pr-2 py-2 rounded transition-colors'>
+                                    <Link to="/about"
+                                        className='flex font-ubuntu items-center justify-center hover:bg-gray-600 h-9 w-max pl-2 pr-2 py-2 rounded transition-colors'>
                                         <span>About</span>
                                         <RiArrowDropDownLine className={`transform text-2xl transition-transform duration-200 ${isDropdownOpen ? 'rotate-180' : ''}`} />
-                                        </Link>
+                                    </Link>
                                 </div>
                                 {isDropdownOpen && (
                                     <div className="absolute p-2 left-0 mt-2 w-72 rounded-md shadow-lg bg-stone-950 border border-gray-600 text-black">
@@ -49,17 +49,17 @@ export default function Navbar() {
                                             <div className='text-sm font-medium leading-none text-white'>Curriculum - 📖</div>
                                             <p className='line-clamp-2 text-sm leading-snug text-muted-foreground text-white'>My personal CV with full info about my person.</p>
                                         </a>
-                                        <Link to='/about'  className="block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-zinc-800">
+                                        <Link to='/about' className="block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-zinc-800">
                                             <div className='text-sm font-medium leading-none text-white'>Introducing myself - 🗯️</div>
                                             <p className='line-clamp-2 text-sm leading-snug text-muted-foreground text-white'>My small and direct introduction.</p>
-                                        </Link>            
+                                        </Link>
                                         <a href="#" className="block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-zinc-800">
                                             <div className='text-sm font-medium leading-none text-white'>Work with me - 📩</div>
                                             <p className='line-clamp-2 text-sm leading-snug text-muted-foreground text-white'>Lets code together! If you want a partner or a group to study, check this!</p>
-                                        </a>    
+                                        </a>
                                     </div>
                                 )}
-                                
+
                             </div>
                             <Link to={'/projects'} className='flex items-center justify-center hover:bg-gray-600 h-9 w-max px-4 py-2 rounded transition-colors'>Projects</Link>
                         </div>
@@ -67,23 +67,23 @@ export default function Navbar() {
                             <RxHamburgerMenu onClick={() => setIsNavOpen(!isNavOpen)} />
                         </button>
                         {isNavOpen && (
-                            
-                            <div className=' absolute top-1/2 mt-20 left-1/2 transform -translate-x-1/2 -translate-y-1/2 flex flex-col margin-auto self-center align-middle p-2 w-[15rem] rounded-md shadow-lg bg-stone-950 border border-gray-600'>            
-                            <button className="md:hidden text-red-600 text-2xl self-end transition hover:scale-110">
-                            <IoMdClose onClick={() => setIsNavOpen(!isNavOpen)} />
-                        </button> 
-                                  <Link to="/" className='text-white p-2  hover:bg-gray-600 rounded'>
+
+                            <div className=' absolute top-1/2 mt-20 left-1/2 transform -translate-x-1/2 -translate-y-1/2 flex flex-col margin-auto self-center align-middle p-2 w-[15rem] rounded-md shadow-lg bg-stone-950 border border-gray-600'>
+                                <button className="md:hidden text-red-600 text-2xl self-end transition hover:scale-110">
+                                    <IoMdClose onClick={() => setIsNavOpen(!isNavOpen)} />
+                                </button>
+                                <Link to="/" className='text-white p-2  hover:bg-gray-600 rounded'>
                                     <span>Home</span>
-                                  </Link>              
-                                  <Link to="/about" className='text-white p-2  hover:bg-gray-600 rounded'>
-                                   <span>About</span>
-                                  </Link>
-                                  <a href='https://cv.aelys.me/' className='text-white p-2  hover:bg-gray-600 rounded'>
+                                </Link>
+                                <Link to="/about" className='text-white p-2  hover:bg-gray-600 rounded'>
+                                    <span>About</span>
+                                </Link>
+                                <a href='https://cv.aelys.me/' className='text-white p-2  hover:bg-gray-600 rounded'>
                                     <span>Curriculum</span>
-                                  </a>
-                                  <Link to='/projects' className='text-white p-2 hover:bg-gray-600 rounded'>
+                                </a>
+                                <Link to='/projects' className='text-white p-2 hover:bg-gray-600 rounded'>
                                     <span>Projects</span>
-                                  </Link>
+                                </Link>
                             </div>
 
                         )}
@@ -94,4 +94,3 @@ export default function Navbar() {
         </>
     );
 }
-                                
