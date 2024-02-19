@@ -5,7 +5,7 @@ import { PiPlanetLight } from "react-icons/pi";
 export default function Home() {
 
     return (
-        <div className={"relative ml-auto mr-auto max-w-[80ch] scroll-smooth p-2 bg-zinc-900"} style={{ minHeight: 'calc(100vh - 1000px)' }}>
+        <div className={"bg-zinc-900 relative ml-auto mr-auto max-w-[80ch] scroll-smooth p-2"} style={{ minHeight: 'calc(100vh - 1000px)' }}>
 
             <main className="overflow-x-hidden px-7 py-10 flex">
                 <div className="prose prose-invert m-automb-8">
