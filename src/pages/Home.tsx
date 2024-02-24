@@ -33,7 +33,7 @@ export default function Home() {
             <main className="overflow-x-hidden px-7 py-5 flex">
                 <div className="prose prose-invert m-automb-8">
                     <div className="pt-10">
-                <TypewriterEffect className="text-left text-wrap font-inter" words={words} />
+                <TypewriterEffect className="text-start text-wrap font-inter" words={words} />
                     </div>
                     <p className="text-white font-inter text-pretty pt-10">
                         Howdy! I am <span className="text-red-600">[Henri]</span> (aka Aëlys), a fullstack developer when it comes to doing large projects with my friends, and backend when it's calmer. I love Linux, privacy &amp; open-source software. I also like art.

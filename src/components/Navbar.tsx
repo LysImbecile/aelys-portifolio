@@ -26,11 +26,11 @@ export default function Navbar() {
 
     return (
         <>
-            <nav className="sticky top-0 z-50 pt-4 font-inter bg-black bg-dot-white/[0.2] ">
+            <nav className="sticky top-0 z-50 pt-4 font-inter bg-black bg-dot-white/[0.2]">
                 <div className="max-w-5xl mx-auto px-4">
                     <div className="flex items-center justify-between border-b border-opacity-60 border-gray-600 h-16 px-4">
                         <a href='#'>
-                            <Link to='/' className="text-2xl text-white font-inter ">Aelys.me</Link>
+                            <Link to='/' className="text-2xl text-white font-inter">Aelys.me</Link>
                         </a>
                         <div className="hidden md:flex items-center space-x-4 py-2 text-white">
                             <Link to="/" className='md:flex items-center justify-center hover:bg-gray-600 h-9 w-max px-4 py-2 rounded transition-colors'>Home</Link>
