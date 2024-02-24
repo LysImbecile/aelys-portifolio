@@ -11,7 +11,7 @@ export default function Home() {
         },
         {
           text: "Aëlys",
-          className: "text-red-700",
+          className: "bg-gradient-to-r from-violet-600 to-indigo-600 bg-clip-text text-transparent",
         },
         {
           text: "a",
@@ -19,11 +19,11 @@ export default function Home() {
         },
         {
           text: "Full-Stack",
-          className: "text-blue-500",
+          className: "bg-gradient-to-r from-indigo-500 to-blue-500 bg-clip-text text-transparent",
         },
         {
             text: "developer",
-            className: "text-blue-500"
+            className: "bg-gradient-to-r from-red-800 to-red-600 bg-clip-text text-transparent"
         }
       ];
 
