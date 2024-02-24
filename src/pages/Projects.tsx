@@ -4,7 +4,7 @@ import { Projs } from "../types/Projs";
 
 export default function Projects() {
     return (
-        <div className={"relative ml-auto mr-auto  scroll-smooth p-2 bg-zinc-900"} style={{ minHeight: 'calc(100vh - 1000px)' }}>
+        <div className={"relative ml-auto mr-auto  scroll-smooth p-2 bg-black bg-dot-white/[0.2] bg-fixed"} style={{ minHeight: 'calc(100vh - 1000px)' }}>
             <section className="md:h-full flex items-center text-gray-600">
                 <div className="container px-5 py-14 mx-auto">
                     <div className="text-center mb-14">

@@ -1,7 +1,7 @@
 export default function About() {
     return (
         <>
-            <div className={"relative ml-auto mr-auto max-w-[80ch] scroll-smooth p-2 bg-zinc-900"}>
+            <div className={"relative h-screen ml-auto mr-auto max-w-[80ch] scroll-smooth p-2 bg-fixed bg-black bg-dot-white/[0.2]"}>
                 <div className={"p-5 pt-10 flex flex-col justify-start"}>
                     <h1 className={"text-4xl font-bold text-white"}>About me ~ 🥀</h1>
                     <section className="pl-5">

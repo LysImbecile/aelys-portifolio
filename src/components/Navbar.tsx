@@ -26,7 +26,7 @@ export default function Navbar() {
 
     return (
         <>
-            <nav className="sticky top-0 z-10 pt-4 bg-zinc-900 bg-cover">
+            <nav className="sticky top-0 z-50 pt-4 bg-black bg-dot-white/[0.2] ">
                 <div className="max-w-5xl mx-auto px-4">
                     <div className="flex items-center justify-between border-b border-opacity-60 border-gray-600 h-16 px-4">
                         <a href='#'>
@@ -44,12 +44,12 @@ export default function Navbar() {
                                     </Link>
                                 </div>
                                 {isDropdownOpen && (
-                                    <div className="absolute p-2 left-0 mt-2 w-72 rounded-md shadow-lg bg-stone-950 border border-gray-600 text-black">
+                                    <div className="absolute p-2 left-0 mt-2 w-72 z-50 rounded-md shadow-lg bg-stone-950 border border-gray-600 text-black">
                                         <a href="https://cv.aelys.me" className="block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-zinc-800">
                                             <div className='text-sm font-medium leading-none text-white'>Curriculum - 📖</div>
                                             <p className='line-clamp-2 text-sm leading-snug text-muted-foreground text-white'>My personal CV with full info about my person.</p>
                                         </a>
-                                        <Link to='/about' className="block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-zinc-800">
+                                        <Link to='/about' className="block select-none z-50	 space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-zinc-800">
                                             <div className='text-sm font-medium leading-none text-white'>Introducing myself - 🗯️</div>
                                             <p className='line-clamp-2 text-sm leading-snug text-muted-foreground text-white'>My small and direct introduction.</p>
                                         </Link>
