@@ -12,7 +12,7 @@ export default function About() {
                             I'm pretty introverted and i don't like to talk much, but i'm always open to meet new people and make new friends.
                         </p>
                         <h2 className={"text-2xl pt-5 font-normal underline decoration-indigo-500 underline-offset-4 text-white"}><span>What i'm currently doing</span></h2>
-                        <p className="text-white pt-2 font-light text-wrap"> Actually i am spending my time learning Golang and new frameworks to increase my stack power, plus i'm learning Godot and working on a football game called Touch - Top Down Esports, an online game with a competitive look. 
+                        <p className="text-white pt-2 font-light text-wrap"> Actually i am spending my time learning Golang and new frameworks to increase my stack power.
                         </p>                    </section>
                     
                 </div>
