@@ -1,6 +1,4 @@
-import { PiPlanetLight } from "react-icons/pi";
 import { TypewriterEffect } from "../components/ui/typewriter-effect";
-
 
 
 export default function Home() {
@@ -18,12 +16,12 @@ export default function Home() {
           className: "text-white text-5xl pl-2 md:pl-0",
         },
         {
-          text: "Full-Stack",
-          className: "bg-gradient-to-r from-fuchsia-600 to-pink-600 bg-clip-text text-transparent text-5xl",
+          text: "curious",
+          className: "bg-purple-600 text-5xl",
         },
         {
-            text: "developer",
-            className: "bg-gradient-to-r from-red-800 to-red-600 bg-clip-text text-transparent text-5xl"
+            text: "teenager.",
+            className: "bg-red-600 text-5xl"
         }
       ];
 
@@ -36,7 +34,7 @@ export default function Home() {
                 <TypewriterEffect className="text-start text-wrap font-inter" words={words} />
                     </div>
                     <p className="text-white font-inter text-pretty pt-10">
-                        Howdy! I am <span className="text-red-600">[Henri]</span> (aka Aëlys), a fullstack developer when it comes to doing large projects with my friends, and backend when it's calmer. I love Linux, privacy &amp; open-source software. I also like art.
+                        Howdy! I am <span className="text-red-600">[Henri]</span> (aka Aëlys), a teenager who loves to learn and have some creative ideas, I love Linux, privacy &amp; open-source software. I also like art.
                     </p>
                     <p className="text-white font-inter text-pretty pt-4">
 
