@@ -46,17 +46,14 @@ export default function Navbar() {
                                 {isDropdownOpen && (
                                     <div className="absolute p-2 left-0 mt-2 w-72 z-50 rounded-md shadow-lg bg-stone-950 border border-gray-600 text-black">
                                         <a href="https://cv.aelys.me" className="block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-zinc-800">
-                                            <div className='text-sm font-medium leading-none text-white'>Curriculum - 📖</div>
-                                            <p className='line-clamp-2 text-sm leading-snug text-muted-foreground text-white'>My personal CV with full info about my person.</p>
+                                            <div className='text-sm font-medium leading-none text-white'>Resume - 📖</div>
+                                            <p className='line-clamp-2 text-sm leading-snug text-muted-foreground text-white'>My resume with professional info.</p>
                                         </a>
                                         <Link to='/about' className="block select-none z-50	 space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-zinc-800">
                                             <div className='text-sm font-medium leading-none text-white'>Introducing myself - 🗯️</div>
-                                            <p className='line-clamp-2 text-sm leading-snug text-muted-foreground text-white'>My small and direct introduction.</p>
+                                            <p className='line-clamp-2 text-sm leading-snug text-muted-foreground text-white'>A detailed page made to have all important info about me.</p>
                                         </Link>
-                                        <a href="#" className="block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-zinc-800">
-                                            <div className='text-sm font-medium leading-none text-white'>Work with me - 📩</div>
-                                            <p className='line-clamp-2 text-sm leading-snug text-muted-foreground text-white'>Lets code together! If you want a partner or a group to study, check this!</p>
-                                        </a>
+                                      
                                     </div>
                                 )}
 
