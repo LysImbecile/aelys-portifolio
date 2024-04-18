@@ -26,12 +26,13 @@ export default function Navbar() {
 
     return (
         <>
-            <nav className="sticky top-0 z-50 pt-4 font-inter bg-black bg-dot-white/[0.2]">
-                <div className="max-w-5xl mx-auto px-4">
-                    <div className="flex items-center justify-between border-b border-opacity-60 border-gray-600 h-16 px-4">
-                        <a href='#'>
-                            <Link to='/' className="text-2xl bg-gradient-to-r from-violet-200 to-pink-200 bg-clip-text text-transparent font-bold">Aelys.me</Link>
-                        </a>
+            <nav className="sticky top-0 z-50 pt-2 font-inter bg-black bg-dot-white/[0.2]">
+                <div className="max-w-5xl mx-auto px-3">
+                    <div className="flex justify-between border-b border-opacity-60 border-gray-600 h-20 px-4">
+                        <Link to="/" className='flex space-x- items-center gap-3'>
+                        <img className="h-12 transition hover:border-purple-600 duration-300 border-sky-200 border-2 rounded-full" src="https://avatars.githubusercontent.com/u/136639736?s=400&u=08b5262856856ddeaf04f3da973b1ecb246f87a7&v=4" alt="avatar" />
+                            <a className="text-2xl bg-gradient-to-r from-violet-200 to-pink-200 bg-clip-text text-transparent font-bold">Aelys.me</a>
+                        </Link>
                         <div className="hidden md:flex items-center space-x-4 py-2 text-white">
                             <Link to="/" className='md:flex items-center justify-center hover:bg-gray-600 h-9 w-max px-4 py-2 rounded transition-colors'>Home</Link>
 
@@ -47,7 +48,7 @@ export default function Navbar() {
                                     <div className="absolute p-2 left-0 mt-2 w-72 z-50 rounded-md shadow-lg bg-stone-950 border border-gray-600 text-black">
                                         <a href="#" className="block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-zinc-800">
                                             <div className='text-sm font-medium leading-none text-white'>Resume - 📖</div>
-                                            <p className='line-clamp-2 text-sm leading-snug text-muted-foreground text-white'>My resume with professional info.</p>
+                                            <p className='line-clamp-2 text-sm leading-snug text-muted-foreground text-white'>Not public anymore.</p>
                                         </a>
                                         <Link to='/about' className="block select-none z-50	 space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-zinc-800">
                                             <div className='text-sm font-medium leading-none text-white'>Introducing myself - 🗯️</div>
@@ -75,7 +76,7 @@ export default function Navbar() {
                                 <Link to="/about" className='text-white p-2  hover:bg-gray-600 rounded'>
                                     <span>About</span>
                                 </Link>
-                                <a href='https://cv.aelys.me/' className='text-white p-2  hover:bg-gray-600 rounded'>
+                                <a href='#' className='text-white p-2  hover:bg-gray-600 rounded'>
                                     <span>Curriculum</span>
                                 </a>
                                 <Link to='/projects' className='text-white p-2 hover:bg-gray-600 rounded'>
