@@ -45,7 +45,7 @@ export default function Navbar() {
                                 </div>
                                 {isDropdownOpen && (
                                     <div className="absolute p-2 left-0 mt-2 w-72 z-50 rounded-md shadow-lg bg-stone-950 border border-gray-600 text-black">
-                                        <a href="https://cv.aelys.me" className="block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-zinc-800">
+                                        <a href="#" className="block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-zinc-800">
                                             <div className='text-sm font-medium leading-none text-white'>Resume - 📖</div>
                                             <p className='line-clamp-2 text-sm leading-snug text-muted-foreground text-white'>My resume with professional info.</p>
                                         </a>
