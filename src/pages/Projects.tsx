@@ -1,5 +1,4 @@
 import Card from "../components/Card";
-import { Projs } from "../types/Projs";
 
 
 export default function Projects() {
