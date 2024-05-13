@@ -41,7 +41,7 @@ export default function Home() {
                         When I'm not programming, I like to play games, listen to music, watch movies/series and spend time with friends.
                     </p>
                     <p className="text-white text-pretty pt-4">
-                        Best way to reach out to me is via Discord @A3lys.
+                        Best way to reach out to me is via Discord @Aelyshakuno.
                     </p>
                     <p className="flex text-red-600 bg-gradient-to-r from-fuchsia-500 to-cyan-500 bg-clip-text text-transparent decoration-indigo-500 underline-offset-4 underline pt-2 font-bold flex-wrap gap-3">
                         <a target="_blank" className="transition hover:scale-110 duration-300 bg-gradient-to-r from-indigo-500 to-blue-500 hover:to-blue-200 bg-clip-text text-transparent rounded p-1" href="https://github.com/henriquejustee">GitHub</a>
