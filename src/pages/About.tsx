@@ -12,9 +12,9 @@ export default function About() {
                     <section className="pl-5">
 
                     <h2 className={"text-2xl pt-5 font-normal underline decoration-indigo-500 underline-offset-4 text-white"}><span>Basic Info</span></h2>
-                        <p className="text-white pt-2 font-light text-wrap">   Ayo! My real name is <span className="text-red-600">[ Henri ]</span> and i'm a dude with <span className="text-red-600">[ 17 ]</span> years old.
+                        <p className="text-white pt-2 font-light text-wrap">   Ayo! My real name is <span className="text-red-600">[ Henrique ]</span> and i'm a dude with <span className="text-red-600">[ 17 ]</span> years old.
                            A person who loves freedom, possibilities and creativity, these few things give me more reasons to appreciate the beauty of life.
-                           Actually i'm a focused learner, extracting knowledge from leafs of the internet, looking for a nice and cold bottle of coke to enjoy and think about the future.
+                           Actually i'm a focused learner, trying to get my first job and study at a university.
                         </p>  
         <div>
                     
@@ -25,7 +25,7 @@ export default function About() {
                         </p>                 
 
                         <h2 className={"text-2xl pt-10 font-normal underline decoration-indigo-500 underline-offset-4 text-white"}><span>My goals</span></h2>
-                        <p className="text-white pt-2 font-light text-wrap"> My main goal is to complete my 18 years old being prepared to the not average adult life, start my graduation in Biomedicine and keep feeding my programming skills. One of my most important goals is to have a group of friends, a good one as nobody can live without friends.
+                        <p className="text-white pt-2 font-light text-wrap"> My main goal is to complete my 18 years old being prepared to the not average adult life, start my graduation in CS and keep feeding my skills. 
                         </p>
                            </section>
                     

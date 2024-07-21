@@ -8,7 +8,7 @@ export default function Home() {
           className: "text-white text-5xl",
         },
         {
-          text: "Aëlys",
+          text: "Henri",
           className: "bg-gradient-to-r from-violet-600 to-indigo-600 bg-clip-text text-transparent text-5xl",
         },
         {
@@ -34,14 +34,14 @@ export default function Home() {
                 <TypewriterEffect className="text-start text-wrap font-inter" words={words} />
                     </div>
                     <p className="text-white font-inter text-pretty pt-10">
-                        Howdy! I am <span className="text-red-600">[Henri]</span> (aka Aëlys), a teenager who loves to learn and have some creative ideas, I love Linux, privacy &amp; open-source software. I also like art.
+                        Howdy! I am <span className="text-red-600">[Henri]</span> (aka Aelys), a teenager who loves to learn and have some creative ideas, I love Linux, privacy &amp; open-source software. I also like art.
                     </p>
                     <p className="text-white font-inter text-pretty pt-4">
 
                         When I'm not programming, I like to play games, listen to music, watch movies/series and spend time with friends.
                     </p>
                     <p className="text-white text-pretty pt-4">
-                        Best way to reach out to me is via Discord @Aelyshakuno.
+                        Best way to reach out to me is via Discord @Kurusuu_.
                     </p>
                     <p className="flex text-red-600 bg-gradient-to-r from-fuchsia-500 to-cyan-500 bg-clip-text text-transparent decoration-indigo-500 underline-offset-4 underline pt-2 font-bold flex-wrap gap-3">
                         <a target="_blank" className="transition hover:scale-110 duration-300 bg-gradient-to-r from-indigo-500 to-blue-500 hover:to-blue-200 bg-clip-text text-transparent rounded p-1" href="https://github.com/henriquejustee">GitHub</a>
