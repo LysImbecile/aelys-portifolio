@@ -21,7 +21,7 @@ export default function About() {
       </div>  
                    
                         <h2 className={"text-2xl pt-10 font-normal underline decoration-indigo-500 underline-offset-4 text-white"}><span>What i like to do</span></h2>
-                        <p className="text-white pt-2 font-light text-wrap"> I like to spend a good time thinking, planning my routine. I don't play games for many hours like before, but i always entretein myself with some good games. I like to explore my Spotify, maybe someday i will have a decent playlist to share with everyone. Coding is my favorite hobby, at this time i am learning more about low level programming, Golang, Rust and relevant I.T stuff.
+                        <p className="text-white pt-2 font-light text-wrap"> I like to spend a good time thinking, planning my routine. I don't play games for many hours like before, but i always entretein myself with some good games. I like to explore my Spotify, maybe someday i will have a decent playlist to share with everyone. Coding is my favorite hobby, at this time i am learning more about low level programming, C, Rust and relevant I.T stuff.
                         </p>                 
 
                         <h2 className={"text-2xl pt-10 font-normal underline decoration-indigo-500 underline-offset-4 text-white"}><span>My goals</span></h2>
