@@ -45,8 +45,6 @@ export default function Home() {
                     </p>
                     <p className="flex text-red-600 bg-gradient-to-r from-fuchsia-500 to-cyan-500 bg-clip-text text-transparent decoration-indigo-500 underline-offset-4 underline pt-2 font-bold flex-wrap gap-3">
                         <a target="_blank" className="transition hover:scale-110 duration-300 bg-gradient-to-r from-indigo-500 to-blue-500 hover:to-blue-200 bg-clip-text text-transparent rounded p-1" href="https://github.com/henriquejustee">GitHub</a>
-                        <a target="_blank" className="transition hover:scale-110 duration-300 bg-gradient-to-r from-fuchsia-600 to-pink-600 hover:to-pink-400 bg-clip-text text-transparent rounded p-1" href="https://www.youtube.com/channel/UCC82bHCIS667v3loXsPd5MA">Youtube</a>
-                        <a target="_blank" className="transition hover:scale-110 duration-300 bg-gradient-to-r from-fuchsia-600 to-pink-600 hover:to-pink-400 bg-clip-text text-transparent rounded p-1" href="https://discordid.netlify.app/?id=1122714514220142672">Discord</a>
                     </p>
                 </div>
             </main>
