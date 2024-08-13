@@ -31,7 +31,7 @@ export default function Navbar() {
                     <div className="flex justify-between border-b border-opacity-60 border-gray-600 h-20 px-4">
                         <Link to="/" className='flex space-x- items-center gap-3'>
                         <img className="h-12 transition hover:border-purple-600 duration-300 border-sky-200 border-2 rounded-full" src="https://avatars.githubusercontent.com/u/136639736?s=400&u=08b5262856856ddeaf04f3da973b1ecb246f87a7&v=4" alt="avatar" />
-                            <a className="text-2xl bg-gradient-to-r from-violet-200 to-pink-200 bg-clip-text text-transparent font-bold">Aelys.me</a>
+                            <a className="text-2xl bg-gradient-to-r from-violet-200 to-pink-200 bg-clip-text text-transparent font-bold">Henri J.</a>
                         </Link>
                         <div className="hidden md:flex items-center space-x-4 py-2 text-white">
                             <Link to="/" className='md:flex items-center justify-center hover:bg-gray-600 h-9 w-max px-4 py-2 rounded transition-colors'>Home</Link>
